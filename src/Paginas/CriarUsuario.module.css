@@ -1,0 +1,87 @@
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    height: calc(100vh - 50px);
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+}
+.fundo{
+    width: 99vw;
+    height: 100vh;
+}
+.robo{
+    width: 25vw;
+    margin-top: 6vh;
+     margin-left: 20.5vh ;
+}
+.logo{
+    
+     margin-bottom: 15vw;
+     margin-top: 20.2px;
+     margin-left: 14.4vh ;
+}
+.titulo {
+    color: var(--roxo-escuro);
+    font-size: 2rem;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal
+}
+.formulario {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 50px;
+    margin-bottom: 9vw;
+    margin-left:65vw;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+}
+.titulo {
+    font-size: 1.5rem;
+    text-align: center;
+    color: #030303; 
+    margin-bottom: 20px;
+}
+
+
+.campo {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    outline: none;
+    font-family: "Inter", sans-serif;
+    
+}
+
+.campo:focus {
+    border-color: #ff0000; 
+}
+
+.botao {
+    width: 100%;
+    padding: 10px;
+    background-color: #ff0000; 
+    color: #fff; 
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.botao:hover {
+    background-color: #d32f2f; 
+}
+.mensagem {
+    color: #800000; 
+    font-size: 0.8rem;
+    margin-top: 5px;
+}

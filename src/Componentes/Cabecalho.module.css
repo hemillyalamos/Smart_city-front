@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+.conteiner{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.log{
+    margin-right: 87vw;
+}
+
+
